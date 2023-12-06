@@ -21,19 +21,19 @@ const FindYourWork = () => {
                 <div style={{ width: "99rem" }} className=" position-relative d-flex justify-content-between align-items-center">
 
                     <FindWorkCard
-                        img="../../../../public/assets/Rectangle 18.jpg"
+                        img="/assets/Rectangle 18.jpg"
                         title="Revitalizing Rajesh Hospital's Online Presence"
                         article="Revamped their website with a patient-friendly interface, implemented an SEO and content marketing strategy."
                     ></FindWorkCard>
 
                     <FindWorkCard
-                        img="../../../../public/assets/Mask group.jpg"
+                        img="/assets/Mask group.jpg"
                         title="Social Media Surge for Shakti Clinics"
                         article="We crafted a targeted social media campaign focusing on health awareness and preventive care."
                     ></FindWorkCard>
 
                     <FindWorkCard
-                        img="../../../../public/assets/Mask group.jpg"
+                        img="/assets/Mask group.jpg"
                         title="Social Media Surge for Shakti Clinics"
                         article="We crafted a targeted social media campaign focusing on health awareness and preventive care."
                     ></FindWorkCard>
