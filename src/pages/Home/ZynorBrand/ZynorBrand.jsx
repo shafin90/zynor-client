@@ -17,7 +17,7 @@ const ZynorBrand = () => {
             <IoIosArrowDown style={{cursor:"pointer"}} className="fs-2 z-1 mb-5 text-white " />
 
 
-            <img className=" zynor-brand-bg position-absolute z-0" src="../../../../public/assets/Desktop - 1.jpg" alt="" />
+            <img className=" zynor-brand-bg position-absolute z-0" src="/assets/Desktop - 1.jpg" alt="" />
         </div>
     );
 };
