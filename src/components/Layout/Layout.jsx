@@ -8,7 +8,7 @@ import FindYourWork from "../../pages/Home/FindYourWork/FindYourWork";
 import ClientsOpinion from "../../pages/Home/ClientsOpinion/ClientsOpinion";
 import FAQ from "../../pages/Home/FAQ/FAQ";
 import ZynorBrand from "../../pages/Home/ZynorBrand/ZynorBrand";
-import GapInHome from "../../pages/Home/gapInHome/gapInHome";
+import GapInHome from "../../pages/Home/GapInHome/GapInHome";
 
 
 
