@@ -1,6 +1,6 @@
 
 
-const GapInHome = () => {
+const gapInHome = () => {
     return (
         <div style={{ height:"100vh", width:"100vw"}} className=" bg-black ">
             
@@ -8,4 +8,4 @@ const GapInHome = () => {
     );
 };
 
-export default GapInHome;
+export default gapInHome;
