@@ -1,0 +1,40 @@
+.text-brown{
+  color: #C19732;
+  font-family: "battambang";
+}
+
+.text-pink{
+  color: #9031E7;
+  font-family: "battambang";
+}
+#root{
+  overflow-x: hidden;
+}
+
+
+/* Webkit (Safari/Chrome) scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* Black background */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9031e7; /* Scrollbar color */
+  /* border-radius: 6px; */
+}
+
+
+
+/* Firefox scrollbar */
+/* You may need to use more vendor prefixes for broader browser compatibility */
+/* For example, '-moz-scrollbar' for older versions of Firefox */
+/* For newer versions, it might not be possible to style the Firefox scrollbar */
+/* These properties might not work in the most recent Firefox versions due to changes in their scrollbar implementation */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #9031e7 #000000; /* Scrollbar color on Firefox */
+}

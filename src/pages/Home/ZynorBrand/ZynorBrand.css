@@ -1,0 +1,29 @@
+.zynor-brand {
+    height: 750px;
+    margin-bottom: 150px;
+}
+
+.zynor-heading {
+    font-size: 120px;
+    font-weight: 300;
+}
+
+.zynor-brand-bg {
+    filter: brightness(0.4);
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width:575px) {
+    .zynor-heading {
+        font-size: 17vw;
+        font-weight: 300;
+    }
+    .zynor-brand-bg {
+        filter: brightness(0.4);
+        width: 300%;
+        height: 100%;
+    }
+
+}
