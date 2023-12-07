@@ -13,6 +13,7 @@ import GapInHome from "../../pages/Home/gapInHome/gapInHome";
 
 
 
+
 const Layout = () => {
     return (
         <div className="bg-black">
