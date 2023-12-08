@@ -1,0 +1,9 @@
+.ourWorkBottomDiv {
+    width: 67vw;
+}
+
+@media screen and (max-width:766px) {
+    .ourWorkBottomDiv {
+        width: 90vw;
+    }
+}

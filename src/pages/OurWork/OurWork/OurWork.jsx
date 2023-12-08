@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
-import OurWorkCard from "./OurWorkCard/OurWorkCard";
-
+import OurWorkCard from "../OurWorkCard/OurWorkCard";
+import './OurWork.css'
 
 const OurWork = () => {
     return (
@@ -63,13 +63,15 @@ const OurWork = () => {
 
             <div className="my-0 my-md-5 my-lg-5 my-xl-5 my-xxl-5 py-0 py-md-5 py-lg-5 py-xl-5 py-xxl-5"></div>
 
-            <div className=" my-5  py-5 ">
-                <h1 style={{ fontFamily: "battambang" }} className="text-brown fw-bold display-4 mb-4 ">
+            <div className="my-5 py-5 ourWorkBottomDiv">
+                <h1 style={{ fontFamily: "battambang" }} className="text-brown fw-bold display-4 mb-5 ">
                     Get started with our digital marketing services today and see the results for yourself.
                 </h1>
-                <article className="text-white fs-4">
+                <article className="text-white fs-5 mb-5">
                     We offer a comprehensive suite of digital marketing services to help businesses of all sizes achieve their online marketing goals.
                 </article>
+
+                <button className="get-in-touch px-5 py-3 mt-3 rounded-4 text-white fw-semibold">Get in Touch</button>
             </div>
         </Container>
     );
