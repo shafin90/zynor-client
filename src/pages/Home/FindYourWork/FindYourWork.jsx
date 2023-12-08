@@ -33,7 +33,7 @@ const FindYourWork = () => {
                     ></FindWorkCard>
 
                     <FindWorkCard
-                        img="/public/assets/Mask group.jpg"
+                        img="/assets/Mask group.jpg"
                         title="Social Media Surge for Shakti Clinics"
                         article="We crafted a targeted social media campaign focusing on health awareness and preventive care."
                     ></FindWorkCard>
