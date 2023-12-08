@@ -5,7 +5,7 @@ import FindYourWork from "../FindYourWork/FindYourWork";
 import HeroSection from "../HeroSection/HeroSection";
 import OurCapabilities from "../OurCapabilities/OurCapabilities";
 import PickYourSolution from "../PickYourSolution/PickYourSolution";
-import GapInHome from "../gapInHome/gapInHome";
+import GapInHome from "../GapInHome/GapInHome";
 
 
 const Home = () => {
