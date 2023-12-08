@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap"
 
 const Footer = () => {
     return (
-        <Container style={{ background: "#272727", boxShadow: "0px 4px 20px 10px #3b3338" }} className="rounded-top-5 d-flex flex-column justify-content-between align-items-center py-5" fluid >
+        <Container style={{ background: "#272727", boxShadow: "0px 4px 20px 10px #3b3338" }} className="rounded-top-5 d-flex flex-column justify-content-between align-items-center mt-5 py-5" fluid >
             <h1 className="text-center text-brown fw-semibold w-50 my-3 ">
                 Let’s make something
                 great together

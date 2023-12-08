@@ -9,21 +9,21 @@ const OurCapabilities = () => {
             <Row>
                 <Col md={4} className=" p-2 ">
                     <CapabilitiesCard
-                        img="../../../../public/assets/1 2.png"
+                        img="/assets/1 2.png"
                         heading="SEO"
                     ></CapabilitiesCard>
                 </Col>
 
                 <Col md={4} className=" p-2 ">
                     <CapabilitiesCard
-                        img="../../../../public/assets/2 1.png"
+                        img="/assets/2 1.png"
                         heading="Social Media Marketing"
                     ></CapabilitiesCard>
                 </Col>
 
                 <Col md={4} className=" p-2 ">
                     <CapabilitiesCard
-                        img="../../../../public/assets/3.png"
+                        img="/assets/3.png"
                         heading="Email Marketing"
                     ></CapabilitiesCard>
                 </Col>
@@ -33,21 +33,21 @@ const OurCapabilities = () => {
             <Row className=" mb-5  pb-5">
                 <Col md={4} className=" p-2 ">
                     <CapabilitiesCard
-                        img="../../../../public/assets/4 (1).png"
+                        img="/assets/4 (1).png"
                         heading="Content Marketing"
                     ></CapabilitiesCard>
                 </Col>
 
                 <Col md={4} className=" p-2 ">
                     <CapabilitiesCard
-                        img="../../../../public/assets/5.png"
+                        img="/assets/5.png"
                         heading="Google Ads"
                     ></CapabilitiesCard>
                 </Col>
 
                 <Col md={4} className=" p-2 ">
                     <CapabilitiesCard
-                        img="../../../../public/assets/6.png"
+                        img="/assets/6.png"
                         heading="Analytics & Reports"
                     ></CapabilitiesCard>
                 </Col>

@@ -9,9 +9,7 @@ import ClientsOpinion from "../../pages/Home/ClientsOpinion/ClientsOpinion";
 import FAQ from "../../pages/Home/FAQ/FAQ";
 import ZynorBrand from "../../pages/Home/ZynorBrand/ZynorBrand";
 import GapInHome from "../../pages/Home/gapInHome/gapInHome";
-
-
-
+import { Outlet } from "react-router-dom";
 
 
 const Layout = () => {
@@ -19,14 +17,7 @@ const Layout = () => {
         <div className="bg-black">
             <ZynorBrand></ZynorBrand>
             <CustomNavbar></CustomNavbar>
-            <HeroSection></HeroSection>
-            <CounterOfHeroSection></CounterOfHeroSection>
-            <GapInHome></GapInHome>
-            <OurCapabilities></OurCapabilities>
-            <PickYourSolution></PickYourSolution>
-            <FindYourWork></FindYourWork>
-            <ClientsOpinion></ClientsOpinion>
-            <FAQ></FAQ>
+            <Outlet></Outlet>
             <Footer></Footer>
         </div>
     );
