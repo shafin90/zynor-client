@@ -18,9 +18,9 @@ const CustomNavbar = () => {
                     <Nav className="mx-auto">
                         <Nav.Link style={{ fontFamily: "Nunito" }} as={Link} to="/" className='text-white' >Home</Nav.Link>
 
-                        <Nav.Link style={{ fontFamily: "Nunito" }} as={Link} to="services" className=' text-white' >Our Service</Nav.Link>
+                        <Nav.Link style={{ fontFamily: "Nunito" }} as={Link} to="/services" className=' text-white' >Our Service</Nav.Link>
 
-                        <Nav.Link style={{ fontFamily: "Nunito" }} className=' text-white' href="#works">Our Works</Nav.Link>
+                        <Nav.Link style={{ fontFamily: "Nunito" }} as={Link} to="/ourWork" className=' text-white'>Our Works</Nav.Link>
 
                         <Nav.Link style={{ fontFamily: "Nunito" }} className=' text-white' href="#blog">Our Blog</Nav.Link>
 
