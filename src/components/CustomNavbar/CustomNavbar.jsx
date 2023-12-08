@@ -16,7 +16,7 @@ const CustomNavbar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto">
-                        <Nav.Link style={{fontFamily:"Nunito"}} as={Link} to="services" className=' text-white' href="#service">Our Service</Nav.Link>
+                        <Nav.Link style={{fontFamily:"Nunito"}} as={Link} to="services" className=' text-white' >Our Service</Nav.Link>
                         
                         <Nav.Link style={{fontFamily:"Nunito"}} className=' text-white' href="#works">Our Works</Nav.Link>
                         
