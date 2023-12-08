@@ -10,10 +10,11 @@ import FAQ from "../../pages/Home/FAQ/FAQ";
 import ZynorBrand from "../../pages/Home/ZynorBrand/ZynorBrand";
 
 import GapInHome from "../../pages/Home/gapInHome/gapInHome";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 
 
 const Layout = () => {
+    
     return (
         <div className="bg-black">
             <ZynorBrand></ZynorBrand>

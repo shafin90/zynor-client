@@ -1,9 +1,12 @@
 import { IoIosArrowDown } from "react-icons/io";
 import './ZynorBrand.css'
+import { useLocation } from "react-router-dom";
 
 const ZynorBrand = () => {
+    const { pathname} = useLocation();
+    console.log(pathname)
     return (
-        <div className=" position-relative zynor-brand  p-5   d-flex flex-column justify-content-center align-items-center">
+        <div className= {pathname==="/"?"position-relative zynor-brand p-5 d-flex flex-column justify-content-center align-items-center":"d-none"} >
 
             <div className="z-1 pt-5 pb-3  d-flex justify-content-center align-items-center">
                 <img className="w-25" src="/assets/logo.png" alt="" />
