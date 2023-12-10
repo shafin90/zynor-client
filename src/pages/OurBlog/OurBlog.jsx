@@ -88,11 +88,11 @@ const OurBlog = () => {
 
             <div className=' my-5 py-5'></div>
 
-            <div className=' d-flex flex-column justify-content-between align-items-center my-5 py-5 px-5'>
+            <div className=' d-flex flex-column justify-content-between align-items-center my-5 py-5   px-0 px-md-5 px-lg-5 px-xl-5 px-xxl-5'>
                 <h1 style={{ fontFamily: "battambang" }} className='text-white text-center mb-3 fw-bold'>
                     Lorem ipsum dolor sit amet
                 </h1>
-                <article className='text-white text-center mb-5 px-5'>
+                <article className='text-white text-center mb-5 px-0 px-md-5 px-lg-5 px-xl-5 px-xxl-5'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor malesuada sem ultricies tristique. In eu augue at lorem mattis semper. Fusce dignissim urna a pretium euismod.
                 </article>
 
