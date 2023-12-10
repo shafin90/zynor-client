@@ -22,7 +22,7 @@ const CustomNavbar = () => {
 
                         <Nav.Link style={{ fontFamily: "Nunito" }} as={Link} to="/ourWork" className=' text-white'>Our Works</Nav.Link>
 
-                        <Nav.Link style={{ fontFamily: "Nunito" }} className=' text-white' href="#blog">Our Blog</Nav.Link>
+                        <Nav.Link style={{ fontFamily: "Nunito" }} as={Link} to="/ourBlog" className='text-white'>Our Blog</Nav.Link>
 
                         <Nav.Link style={{ fontFamily: "Nunito" }} className=' text-white' href="#content">Our Content</Nav.Link>
                     </Nav>
