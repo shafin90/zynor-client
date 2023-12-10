@@ -11,6 +11,7 @@ import Home from './pages/Home/Home/Home';
 import Services from './pages/Services/Services';
 import OurWork from './pages/OurWork/OurWork/OurWork';
 import OurBlog from './pages/OurBlog/OurBlog';
+import ContactUs from './pages/ContactUs/ContactUs';
 
 
 const router = createBrowserRouter([
@@ -27,12 +28,16 @@ const router = createBrowserRouter([
         element: <Services></Services>
       },
       {
-        path:"/ourWork",
-        element:<OurWork></OurWork>
+        path: "/ourWork",
+        element: <OurWork></OurWork>
       },
       {
-        path:"/ourBlog",
+        path: "/ourBlog",
         element: <OurBlog></OurBlog>
+      },
+      {
+        path: "/contactUs",
+        element: <ContactUs></ContactUs>
       }
     ]
   },
