@@ -13,6 +13,7 @@ import OurWork from './pages/OurWork/OurWork/OurWork';
 import OurBlog from './pages/OurBlog/OurBlog';
 import ContactUs from './pages/ContactUs/ContactUs';
 import Blog1 from './pages/Blog1/Blog1';
+import ViewProject from './pages/ViewProject/ViewProject';
 
 
 const router = createBrowserRouter([
@@ -256,7 +257,66 @@ const router = createBrowserRouter([
           thirdArticle={false}
         ></Blog1>
       },
-      
+      {
+        path: "/project1",
+        element: <ViewProject
+          img="/public/assets/Image.jpg"
+          firstHeading="The Challenge"
+          firstArticle="Rajesh Hospital, a multi-specialty hospital in Mumbai, struggled with an outdated website and minimal online engagement."
+
+          SecondHeading="The Solution"
+          SecondArticle="Our agency revamped their website with a patient-friendly interface, implemented an SEO and content marketing strategy."
+
+          ThirdHeading="The Result"
+          ThirdArticle="40% increase in website traffic and a 25% rise in online appointment bookings within six months."
+        ></ViewProject>
+      },
+      {
+        path: "/project2",
+        element: <ViewProject
+          img="/public/assets/Image (2).jpg"
+          firstHeading="The Challenge"
+          firstArticle="Rajesh Hospital, a multi-specialty hospital in Mumbai, struggled with an outdated website and minimal online engagement."
+
+          SecondHeading="The Solution"
+          SecondArticle="Our agency revamped their website with a patient-friendly interface, implemented an SEO and content marketing strategy."
+
+          ThirdHeading="The Result"
+          ThirdArticle="40% increase in website traffic and a 25% rise in online appointment bookings within six months."
+
+          quality={true}
+        ></ViewProject>
+      },
+      {
+        path: "/project3",
+        element: <ViewProject
+          img="/public/assets/Image (1).jpg"
+          firstHeading="The Challenge"
+          firstArticle="Rajesh Hospital, a multi-specialty hospital in Mumbai, struggled with an outdated website and minimal online engagement."
+
+          SecondHeading="The Solution"
+          SecondArticle="Our agency revamped their website with a patient-friendly interface, implemented an SEO and content marketing strategy."
+
+          ThirdHeading="The Result"
+          ThirdArticle="40% increase in website traffic and a 25% rise in online appointment bookings within six months."
+        ></ViewProject>
+      },
+
+      {
+        path: "/project4",
+        element: <ViewProject
+          img="/public/assets/Rectangle 2.jpg"
+          firstHeading="The Challenge"
+          firstArticle="Rajesh Hospital, a multi-specialty hospital in Mumbai, struggled with an outdated website and minimal online engagement."
+
+          SecondHeading="The Solution"
+          SecondArticle="Our agency revamped their website with a patient-friendly interface, implemented an SEO and content marketing strategy."
+
+          ThirdHeading="The Result"
+          ThirdArticle="40% increase in website traffic and a 25% rise in online appointment bookings within six months."
+        ></ViewProject>
+      }
+
     ]
   },
 ]);

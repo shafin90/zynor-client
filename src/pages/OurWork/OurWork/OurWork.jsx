@@ -33,6 +33,7 @@ const OurWork = () => {
                 heading="Revitalizing Rajesh Hospital's Online Presence"
                 article="Our agency revamped their website with a patient-friendly interface, implemented an SEO and content marketing strategy."
                 img="/assets/Image (3).png"
+                projectNumber={1}
             ></OurWorkCard>
 
             <div className="my-0 my-md-5 my-lg-5 my-xl-5 my-xxl-5 py-0 py-md-5 py-lg-5 py-xl-5 py-xxl-5"></div>
@@ -42,6 +43,7 @@ const OurWork = () => {
                 article="We crafted a targeted social media campaign focusing on health awareness and preventive care."
                 img="/assets/Image (1).png"
                 flip={true}
+                projectNumber={2}
             ></OurWorkCard>
 
             <div className="my-0 my-md-5 my-lg-5 my-xl-5 my-xxl-5 py-0 py-md-5 py-lg-5 py-xl-5 py-xxl-5"></div>
@@ -50,6 +52,7 @@ const OurWork = () => {
                 heading="SEO Success for Suraksha Health Care"
                 article="A comprehensive SEO strategy was implemented, focusing on local keywords and quality content."
                 img="/assets/Rectangle 2.png"
+                projectNumber={3}
             ></OurWorkCard>
 
             <div className="my-0 my-md-5 my-lg-5 my-xl-5 my-xxl-5 py-0 py-md-5 py-lg-5 py-xl-5 py-xxl-5"></div>
@@ -59,6 +62,7 @@ const OurWork = () => {
                 article="Developed a monthly newsletter featuring health tips, hospital news, and patient stories."
                 img="/assets/Image (4).png"
                 flip={true}
+                projectNumber={4}
             ></OurWorkCard>
 
             <div className="my-0 my-md-5 my-lg-5 my-xl-5 my-xxl-5 py-0 py-md-5 py-lg-5 py-xl-5 py-xxl-5"></div>

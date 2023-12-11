@@ -11,6 +11,7 @@ const OurBlog = () => {
                         heading='Set Free the Power of Digital Marketing'
                         article='Your Gateway to Online Success'
                         img="/assets/Rectangle 13.jpg"
+                        numberOfBlog={1}
                     ></OurBlogCard>
                 </Col>
 
@@ -19,6 +20,7 @@ const OurBlog = () => {
                         heading='Social Media Marketing'
                         article='Building Your Brand Online'
                         img="/assets/Rectangle 12.jpg"
+                        numberOfBlog={2}
                     ></OurBlogCard>
                 </Col>
 
@@ -27,6 +29,7 @@ const OurBlog = () => {
                         heading='Email Marketing'
                         article='Building and Nurturing Your Online Community'
                         img="/assets/Rectangle 14.jpg"
+                        numberOfBlog={3}
                     ></OurBlogCard>
                 </Col>
             </Row>
@@ -38,6 +41,7 @@ const OurBlog = () => {
                         heading='Content Marketing Mastery'
                         article='Creating Value that Drives Results'
                         img="/assets/Rectangle 16.jpg"
+                        numberOfBlog={4}
                     ></OurBlogCard>
                 </Col>
 
@@ -46,6 +50,7 @@ const OurBlog = () => {
                         heading='Evolving Customer Experience'
                         article='Personalization and Engagement in the Digital Age'
                         img="/assets/Rectangle 15.jpg"
+                        numberOfBlog={5}
                     ></OurBlogCard>
                 </Col>
 
@@ -54,6 +59,7 @@ const OurBlog = () => {
                         heading='How to Create a Killer SEO Strategy'
                         article='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor malesuada sem ultricies tristique.'
                         img="/assets/Rectangle 17.jpg"
+                        numberOfBlog={6}
                     ></OurBlogCard>
                 </Col>
             </Row>
@@ -66,6 +72,7 @@ const OurBlog = () => {
                         heading='Navigating the Social Media Landscape'
                         article='A Digital Marketing Guide'
                         img="/assets/Rectangle 13 (1).jpg"
+                        numberOfBlog={7}
                     ></OurBlogCard>
                 </Col>
 
@@ -74,6 +81,7 @@ const OurBlog = () => {
                         heading='Embracing Micro-Influencers'
                         article='Leveraging Authenticity and Niche Communities for Targeted Marketing'
                         img="/assets/Rectangle 12 (1).jpg"
+                        numberOfBlog={8}
                     ></OurBlogCard>
                 </Col>
 
@@ -82,6 +90,7 @@ const OurBlog = () => {
                         heading='The Future is Exciting'
                         article='Embracing the Evolution of Digital Marketing'
                         img="/assets/Rectangle 14 (1).jpg"
+                        numberOfBlog={9}
                     ></OurBlogCard>
                 </Col>
             </Row>
