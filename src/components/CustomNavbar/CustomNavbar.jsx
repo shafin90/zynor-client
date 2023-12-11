@@ -24,7 +24,7 @@ const CustomNavbar = () => {
 
                         <Nav.Link style={{ fontFamily: "Nunito" }} as={Link} to="/ourBlog" className='text-white'>Our Blog</Nav.Link>
 
-                        <Nav.Link style={{ fontFamily: "Nunito" }} className=' text-white' as={Link} to="/contactUs">Our Content</Nav.Link>
+                        <Nav.Link style={{ fontFamily: "Nunito" }} className=' text-white' as={Link} to="/contactUs">Contact Us</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
 

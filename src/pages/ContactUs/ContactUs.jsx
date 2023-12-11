@@ -20,13 +20,13 @@ const ContactUs = () => {
                         Name
                     </label>
                     <Row className=' w-100 d-flex  justify-content-between align-items-center pe-0'>
-                        <Col md={6} className=' pe-5'>
-                            <input type="text" className='input w-100 mb-2 bg-black' />
+                        <Col md={6} className=' pe-0 pe-md-5 pe-lg-5 pe-xl-5 pe-xxl-5'>
+                            <input type="text" className='input text-white w-100 mb-2 bg-black' />
                             <p className=' text-white'>First</p>
                         </Col>
 
-                        <Col md={6} className='pe-0 ps-5'>
-                            <input type="text" className='input w-100 mb-2 bg-black' />
+                        <Col md={6} className='pe-0 ps-md-0 ps-md-5 ps-lg-5 ps-xl-5 ps-xxl-5'>
+                            <input type="text" className='input text-white w-100 mb-2 bg-black' />
                             <p className=' text-white'>Last</p>
                         </Col>
                     </Row>
@@ -39,7 +39,7 @@ const ContactUs = () => {
                     <label className='text-white mb-4 label fw-bold fs-3'>
                         Email
                     </label>
-                    <input type="text" className='input w-100 bg-black ' />
+                    <input type="text" className='input text-white w-100 bg-black ' />
                 </div>
 
                 {/* Phone NUmber==== */}
@@ -47,7 +47,7 @@ const ContactUs = () => {
                     <label className='text-white mb-4 label fw-bold fs-3'>
                         Phone Number
                     </label>
-                    <input type="text" className='input w-100 bg-black ' />
+                    <input type="text" className='input text-white w-100 bg-black ' />
                 </div>
 
                 {/* Website========== */}
@@ -55,7 +55,7 @@ const ContactUs = () => {
                     <label className='text-white mb-4 label fw-bold fs-3'>
                         Website
                     </label>
-                    <input type="text" className='input w-100 bg-black ' />
+                    <input type="text" className='input text-white w-100 bg-black ' />
                 </div>
 
 
@@ -64,7 +64,7 @@ const ContactUs = () => {
                     <label className='text-white mb-4 label fw-bold fs-3'>
                         Budget
                     </label>
-                    <input type="text" className='input w-100 bg-black ' />
+                    <input type="text" className='input text-white w-100 bg-black ' />
                 </div>
 
 
@@ -73,7 +73,7 @@ const ContactUs = () => {
                     <label className='text-white mb-4 label fw-bold fs-3'>
                         Message
                     </label>
-                    <input type="text" className='input w-100 bg-black ' />
+                    <input type="text" className='input text-white w-100 bg-black'/>
                 </div>
 
                 <div className=' my-5 py-5 '></div>
