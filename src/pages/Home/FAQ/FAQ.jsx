@@ -1,10 +1,19 @@
 import { Container } from "react-bootstrap"
 import FAQCard from "../FAQCard/FAQCard";
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const FAQ = () => {
+    
+    useEffect(()=>{
+        AOS.init();
+    },[])
+
     return (
         <Container className=" my-5 py-5">
-            <h1 className=" fw-semibold text-pink text-center mb-5">FAQ</h1>
+            <h1 data-aos='fade-right' data-aos-duration='1000' className=" fw-semibold text-pink text-center mb-5">FAQ</h1>
 
             <FAQCard
                 question="How can we start working with you?"

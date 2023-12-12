@@ -1,12 +1,18 @@
 import React from 'react';
 import OurBlogCard from './OurBlogCard/OurBlogCard';
 import { Col, Container, Row } from 'react-bootstrap';
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const OurBlog = () => {
+    useEffect(()=>{
+        AOS.init();
+    },[])
     return (
         <Container className='my-5 py-5'>
             <Row className=' mb-5 '>
-                <Col md={4} className='mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0'>
+                <Col data-aos='fade-up'  data-aos-duration='1500' md={4} className='mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0'>
                     <OurBlogCard
                         heading='Set Free the Power of Digital Marketing'
                         article='Your Gateway to Online Success'
@@ -15,7 +21,7 @@ const OurBlog = () => {
                     ></OurBlogCard>
                 </Col>
 
-                <Col md={4} className='mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0'>
+                <Col data-aos='fade-up'  data-aos-duration='1500' md={4} className='mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0'>
                     <OurBlogCard
                         heading='Social Media Marketing'
                         article='Building Your Brand Online'
@@ -24,7 +30,7 @@ const OurBlog = () => {
                     ></OurBlogCard>
                 </Col>
 
-                <Col md={4} className='mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0'>
+                <Col data-aos='fade-up'  data-aos-duration='1500' md={4} className='mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0'>
                     <OurBlogCard
                         heading='Email Marketing'
                         article='Building and Nurturing Your Online Community'
@@ -36,7 +42,7 @@ const OurBlog = () => {
 
 
             <Row className=' mb-5 '>
-                <Col md={4} className='mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0'>
+                <Col data-aos='fade-up'  data-aos-duration='1500' md={4} className='mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0'>
                     <OurBlogCard
                         heading='Content Marketing Mastery'
                         article='Creating Value that Drives Results'
@@ -45,7 +51,7 @@ const OurBlog = () => {
                     ></OurBlogCard>
                 </Col>
 
-                <Col md={4} className='mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0'>
+                <Col data-aos='fade-up'  data-aos-duration='1500' md={4} className='mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0'>
                     <OurBlogCard
                         heading='Evolving Customer Experience'
                         article='Personalization and Engagement in the Digital Age'
@@ -54,7 +60,7 @@ const OurBlog = () => {
                     ></OurBlogCard>
                 </Col>
 
-                <Col md={4} className='mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0'>
+                <Col data-aos='fade-up'  data-aos-duration='1500' md={4} className='mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0'>
                     <OurBlogCard
                         heading='How to Create a Killer SEO Strategy'
                         article='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor malesuada sem ultricies tristique.'
@@ -67,7 +73,7 @@ const OurBlog = () => {
 
 
             <Row className=' mb-5 '>
-                <Col md={4} className='mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0'>
+                <Col data-aos='fade-up'  data-aos-duration='1500' md={4} className='mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0'>
                     <OurBlogCard
                         heading='Navigating the Social Media Landscape'
                         article='A Digital Marketing Guide'
@@ -76,7 +82,7 @@ const OurBlog = () => {
                     ></OurBlogCard>
                 </Col>
 
-                <Col md={4} className='mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0'>
+                <Col data-aos='fade-up'  data-aos-duration='1500' md={4} className='mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0'>
                     <OurBlogCard
                         heading='Embracing Micro-Influencers'
                         article='Leveraging Authenticity and Niche Communities for Targeted Marketing'
@@ -85,7 +91,7 @@ const OurBlog = () => {
                     ></OurBlogCard>
                 </Col>
 
-                <Col md={4} className='mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0'>
+                <Col data-aos='fade-up'  data-aos-duration='1500' md={4} className='mb-5 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0'>
                     <OurBlogCard
                         heading='The Future is Exciting'
                         article='Embracing the Evolution of Digital Marketing'
@@ -97,7 +103,7 @@ const OurBlog = () => {
 
             <div className=' my-5 py-5'></div>
 
-            <div className=' d-flex flex-column justify-content-between align-items-center my-5 py-5   px-0 px-md-5 px-lg-5 px-xl-5 px-xxl-5'>
+            <div data-aos='zoom-up-down'  data-aos-duration='1500' className=' d-flex flex-column justify-content-between align-items-center my-5 py-5   px-0 px-md-5 px-lg-5 px-xl-5 px-xxl-5'>
                 <h1 style={{ fontFamily: "battambang" }} className='text-white text-center mb-3 fw-bold'>
                     Lorem ipsum dolor sit amet
                 </h1>

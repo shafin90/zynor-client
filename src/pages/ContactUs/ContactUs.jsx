@@ -1,11 +1,20 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './ContactUs.css'
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const ContactUs = () => {
+    
+    useEffect(()=>{
+        AOS.init();
+    },[])
+    
     return (
         <Container className=' px-5 mb-5 pb-5'>
 
-            <div className=' my-5 py-5'>
+            <div data-aos='fade-up'  data-aos-duration='1500' className=' my-5 py-5'>
                 <h1 style={{ fontFamily: "battambang" }} className='text-center  fw-bold text-white'>Embark on Your Success Journey</h1>
                 <article style={{ fontSize: "14px" }} className=' text-white text-center '>Reach Out to Our Experts</article>
             </div>
@@ -15,7 +24,7 @@ const ContactUs = () => {
 
             <form>
                 {/* Name========= */}
-                <div className='mb-5 d-flex flex-column justify-content-between align-items-start'>
+                <div  className='mb-5 d-flex flex-column justify-content-between align-items-start'>
                     <label className='text-white mb-4 label fw-bold fs-3'>
                         Name
                     </label>

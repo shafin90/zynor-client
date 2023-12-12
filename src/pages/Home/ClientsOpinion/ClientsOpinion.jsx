@@ -1,9 +1,17 @@
 import { Carousel, Container } from "react-bootstrap";
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ClientsOpinion = () => {
+
+    useEffect(()=>{
+        AOS.init();
+    },[])
+    
     return (
         <Container className="my-5 py-5">
-            <h1 className="text-center text-pink h2 fw-bold my-5">What Our Clients Say</h1>
+            <h1 data-aos='fade-right'  data-aos-duration='1000' className="text-center text-pink h2 fw-bold my-5">What Our Clients Say</h1>
 
             <Carousel style={{ background: "#272727" }} className="py-5 rounded-4">
                 <Carousel.Item className=" py-5">
