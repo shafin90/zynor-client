@@ -27,37 +27,37 @@ const ViewProject = ({ img, firstHeading, firstArticle, SecondHeading, SecondArt
                 <Container className=" my-5">
                     <Row className=" mb-4">
                         <Col md={4}>
-                            <img className="img-fluid" src="/public/assets/SHAKTI C 9 (1).jpg" alt="" />
+                            <img className="img-fluid" src="/assets/SHAKTI C 9 (1).jpg" alt="" />
                         </Col>
                         <Col md={4}>
-                            <img className="img-fluid" src="/public/assets/SHAKTI C 1 (1).jpg" alt="" />
+                            <img className="img-fluid" src="/assets/SHAKTI C 1 (1).jpg" alt="" />
                         </Col>
                         <Col md={4}>
-                            <img className="img-fluid" src="/public/assets/SHAKTI C 2.jpg" alt="" />
+                            <img className="img-fluid" src="/assets/SHAKTI C 2.jpg" alt="" />
                         </Col>
                     </Row>
 
                     <Row className=" mb-4">
                         <Col md={4}>
-                            <img className="img-fluid" src="/public/assets/SHAKTI C 3.jpg" alt="" />
+                            <img className="img-fluid" src="/assets/SHAKTI C 3.jpg" alt="" />
                         </Col>
                         <Col md={4}>
-                            <img className="img-fluid" src="/public/assets/SHAKTI C 4.jpg" alt="" />
+                            <img className="img-fluid" src="/assets/SHAKTI C 4.jpg" alt="" />
                         </Col>
                         <Col md={4}>
-                            <img className="img-fluid" src="/public/assets/SHAKTI C 5.jpg" alt="" />
+                            <img className="img-fluid" src="/assets/SHAKTI C 5.jpg" alt="" />
                         </Col>
                     </Row>
 
                     <Row>
                         <Col md={4}>
-                            <img className="img-fluid" src="/public/assets/SHAKTI C 6.jpg" alt="" />
+                            <img className="img-fluid" src="/assets/SHAKTI C 6.jpg" alt="" />
                         </Col>
                         <Col md={4}>
-                            <img className="img-fluid" src="/public/assets/SHAKTI C 7.jpg" alt="" />
+                            <img className="img-fluid" src="/assets/SHAKTI C 7.jpg" alt="" />
                         </Col>
                         <Col md={4}>
-                            <img className="img-fluid" src="/public/assets/SHAKTI C 8.jpg" alt="" />
+                            <img className="img-fluid" src="/assets/SHAKTI C 8.jpg" alt="" />
                         </Col>
                     </Row>
                 </Container>

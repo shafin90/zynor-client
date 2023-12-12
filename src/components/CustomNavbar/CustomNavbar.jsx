@@ -1,8 +1,10 @@
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import './CustomNavbar.css'
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const CustomNavbar = () => {
+    const { pathname } = useLocation();
+    console.log(pathname)
     return (
         <Navbar className=' py-5 ' expand="lg">
             <Container>
@@ -16,15 +18,34 @@ const CustomNavbar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto">
-                        <Nav.Link style={{ fontFamily: "Nunito" }} as={Link} to="/" className='text-white' >Home</Nav.Link>
+                        <Nav.Link
+                            style={{ fontFamily: "Nunito", color: `${pathname === "/" ? "#7D26CD" : "white"}` }}
+                            as={Link} to="/"
+                        >Home
+                        </Nav.Link>
 
-                        <Nav.Link style={{ fontFamily: "Nunito" }} as={Link} to="/services" className=' text-white' >Our Service</Nav.Link>
+                        <Nav.Link
+                            style={{ fontFamily: "Nunito", color: `${pathname === "/services" ? "#7D26CD" : "white"}` }}
+                            as={Link} to="/services"
+                        >Our Service</Nav.Link>
 
-                        <Nav.Link style={{ fontFamily: "Nunito" }} as={Link} to="/ourWork" className=' text-white'>Our Works</Nav.Link>
+                        <Nav.Link
+                            style={{ fontFamily: "Nunito", color: `${pathname === "/ourWork" ? "#7D26CD" : "white"}` }}
+                            as={Link}
+                            to="/ourWork"
+                        >Our Works</Nav.Link>
 
-                        <Nav.Link style={{ fontFamily: "Nunito" }} as={Link} to="/ourBlog" className='text-white'>Our Blog</Nav.Link>
+                        <Nav.Link
+                            style={{ fontFamily: "Nunito", color: `${pathname === "/ourBlog" ? "#7D26CD" : "white"}` }}
+                            as={Link}
+                            to="/ourBlog"
+                        >Our Blog</Nav.Link>
 
-                        <Nav.Link style={{ fontFamily: "Nunito" }} className=' text-white' as={Link} to="/contactUs">Contact Us</Nav.Link>
+                        <Nav.Link
+                            style={{ fontFamily: "Nunito", color:`${pathname === "/contactUs" ? "#7D26CD" : "white"}` }}
+                            as={Link}
+                            to="/contactUs"
+                        >Contact Us</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
 

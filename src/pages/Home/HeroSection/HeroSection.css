@@ -2,5 +2,26 @@
     box-shadow: 0px 4px 40px 20px #C1973233;
     border: 1px solid #C19732;
     background-color: #272727;
+    transition: 0.5s ;
+    animation-name: lighting;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
 
+.get-in-touch:hover{
+    background-color: #363636;
+    border: 1px solid  #363636;
+}
+
+@keyframes lighting {
+    0%{
+        box-shadow: 0px 4px 40px 20px #C1973233;
+    }
+    50%{
+        box-shadow: 0px 4px 70px 40px #C1973233;
+    }
+    100%{
+        box-shadow: 0px 4px 40px 20px #C1973233;
+    }
 }

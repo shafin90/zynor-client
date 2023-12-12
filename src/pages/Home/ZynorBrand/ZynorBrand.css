@@ -14,12 +14,33 @@
     height: 124vh;
 }
 
+.downArrowIcon {
+    position: relative;
+    top: 0px;
+    animation-name: floatingAnimation;
+    animation-duration: 0.8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes floatingAnimation {
+    0%{
+        top:0px
+    }
+    50%{
+        top:8px
+    }
+    100%{
+        top:0px
+    }
+}
 
 @media screen and (max-width:575px) {
     .zynor-heading {
         font-size: 17vw;
         font-weight: 300;
     }
+
     .zynor-brand-bg {
         filter: brightness(0.4);
         width: 300%;

@@ -10,6 +10,10 @@
 
 .btn-pink {
     background: #7D26CD;
-    box-shadow: 0px 4px 20px 10px #3b3338
-    
+    box-shadow: 0px 4px 20px 10px #3b3338;
+    transition: 0.5s;
 }
+.btn-pink:hover {
+    box-shadow: 0px 4px 30px 20px #3b3338;
+}
+
