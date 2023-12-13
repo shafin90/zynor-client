@@ -4,12 +4,19 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import './OurCapabilites.css'
-
+import { useNavigate } from "react-router-dom";
 
 const OurCapabilities = () => {
+
+    const navigate = useNavigate()
+
     useEffect(() => {
         AOS.init();
     }, [])
+
+    const handleNavigate = () => {
+        navigate("/services")
+    }
     return (
         <Container className=" d-flex flex-column justify-content-between align-items-center my-5  py-5">
             <h3 data-aos='fade-right' data-aos-duration='1000' style={{ color: "#7D26CD", fontFamily: "battambang" }} className=" fw-semibold text-center my-5 pb-3">Our Capabilities</h3>
@@ -61,7 +68,7 @@ const OurCapabilities = () => {
                 </Col>
             </Row>
 
-            <button data-aos='fade-up' data-aos-duration='1000' className=" mx-auto px-5 py-3 rounded-4 text-white fw-bolder seeOurCapabilitiesButton">View All</button>
+            <button onClick={handleNavigate} data-aos='fade-up' data-aos-duration='1000' className=" mx-auto px-5 py-3 rounded-4 text-white fw-bolder seeOurCapabilitiesButton">View All</button>
 
         </Container>
     );

@@ -1,7 +1,15 @@
 import { Container, Row, Col } from "react-bootstrap"
 import './Footer.css'
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+    
+    const navigate = useNavigate();
+    
+    const handleNavigate = () => {
+        navigate("/contactUs")
+    }
+    
     return (
         <Container style={{ background: "#272727", boxShadow: "0px 4px 20px 10px #3b3338" }} className="rounded-top-5 d-flex flex-column justify-content-between align-items-center mt-5 py-5" fluid >
             <h1 className="text-center text-brown fw-semibold my-3 footer-heading">
@@ -12,7 +20,7 @@ const Footer = () => {
             <p className=" text-center text-white fw-semibold mb-5">
                 Ready to redefine your journey?
             </p>
-            <button  className=" footerBtn mb-5 px-5 py-3 rounded-4 border-0 text-white fw-semibold">Contact Us</button>
+            <button onClick={handleNavigate} className=" footerBtn mb-5 px-5 py-3 rounded-4 border-0 text-white fw-semibold">Contact Us</button>
 
 
             <Container className=" my-5">
