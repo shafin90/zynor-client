@@ -14,7 +14,7 @@ const HeroSection = () => {
             <h1 data-aos='fade-up'  data-aos-duration='2000' className=" text-pink text-center fw-semibold mb-4 px-0 px-md-5 px-lg-5 px-xl-0 px-xxl-0">
                 We're not the Digital Marketing Experts You Want But the ones you Need
             </h1>
-            <article data-aos='fade-up'  data-aos-duration='2000' style={{fontFamily:"Nunito"}} className=" text-white text-center px-5 fs-5 mb-5 pb-5">
+            <article data-aos='fade-up'  data-aos-duration='2000' style={{fontFamily:"Nunito"}} className=" text-white text-center px-4 px-md-5 px-lg-5 px-xl-5 px-xxl-5 fs-5 mb-5 pb-5">
                 At Zynore, we are the digital marketing experts you need to help your business grow online. <br />
                 We have a proven track record of helping businesses of all sizes achieve their digital marketing goals.
             </article>

@@ -10,7 +10,14 @@ const FindWorkCard = ({title,article,img}) => {
                 <Card.Text className=' text-white fs-6 mb-5'>
                     {article}
                 </Card.Text>
-                <button style={{border:"1px solid #7D26CD",boxShadow: "0px 4px 20px 10px #7D26CD66", background:"#272727"}} className=' text-white fw-semibold rounded-4 px-4 py-3'>
+                <button style={{
+                    border:"1px solid #7D26CD",
+                    boxShadow: "0px 4px 20px 10px #7D26CD66", 
+                    background:"#272727",
+                    animationName:"lightingpink",
+                    animationDuration:"2s",
+                    animationIterationCount:"infinite",
+                    }} className=' text-white fw-semibold rounded-4 px-4 py-3'>
                     View Project
                 </button>
             </Card.Body>

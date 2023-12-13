@@ -12,7 +12,7 @@ const ContactUs = () => {
     },[])
     
     return (
-        <Container className=' px-5 mb-5 pb-5'>
+        <Container className=' px-3 px-md-5 px-lg-5 px-xl-5 px-xxl-5 mb-5 pb-5'>
 
             <div data-aos='fade-up'  data-aos-duration='1500' className=' my-5 py-5'>
                 <h1 style={{ fontFamily: "battambang" }} className='text-center  fw-bold text-white'>Embark on Your Success Journey</h1>

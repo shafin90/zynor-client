@@ -1,0 +1,10 @@
+.ourWorkContainer::-webkit-scrollbar {
+    /* width: 10px; */
+    height: 5px;
+    background-color: #ffffff;
+}
+
+.ourWorkContainer::-webkit-scrollbar-thumb {
+    background-color: #9031e7;
+}
+

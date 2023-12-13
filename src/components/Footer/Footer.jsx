@@ -12,7 +12,7 @@ const Footer = () => {
             <p className=" text-center text-white fw-semibold mb-5">
                 Ready to redefine your journey?
             </p>
-            <button style={{ background: "#7D26CD" }} className=" mb-5 px-5 py-3 rounded-4 border-0 text-white fw-semibold">Contact Us</button>
+            <button  className=" footerBtn mb-5 px-5 py-3 rounded-4 border-0 text-white fw-semibold">Contact Us</button>
 
 
             <Container className=" my-5">

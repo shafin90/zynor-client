@@ -2,6 +2,28 @@
     width: 50%;
 }
 
+.footerBtn{
+    position: relative;
+    animation-name: footerAnimation;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    background-color: #7D26CD;
+}
+
+@keyframes footerAnimation {
+    0%{
+        top:0px
+    }
+    50%{
+        top:8px
+    }
+    100%{
+        top:0px
+    }
+}
+
+
 @media screen and (max-width:766px) {
     .footer-heading{
         width: 100%;
