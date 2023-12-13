@@ -15,8 +15,8 @@ const CustomNavbar = () => {
                 </Navbar.Brand>
 
                 {/* Center - Menu */}
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Toggle style={{backgroundColor:"#7D26CD"}} className=' mx-5' aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse  id="basic-navbar-nav">
                     <Nav className="mx-auto">
                         <Nav.Link
                             style={{ fontFamily: "Nunito", color: `${pathname === "/" ? "#7D26CD" : "white"}` }}

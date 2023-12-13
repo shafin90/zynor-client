@@ -1,9 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap"
+import './Footer.css'
 
 const Footer = () => {
     return (
         <Container style={{ background: "#272727", boxShadow: "0px 4px 20px 10px #3b3338" }} className="rounded-top-5 d-flex flex-column justify-content-between align-items-center mt-5 py-5" fluid >
-            <h1 className="text-center text-brown fw-semibold w-50 my-3 ">
+            <h1 className="text-center text-brown fw-semibold my-3 footer-heading">
                 Let’s make something
                 great together
             </h1>
@@ -15,8 +16,6 @@ const Footer = () => {
 
 
             <Container className=" my-5">
-
-
 
                 <Row className=" d-flex justify-content-between align-items-start">
                     <Col md={5}>

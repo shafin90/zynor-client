@@ -1,0 +1,9 @@
+.footer-heading{
+    width: 50%;
+}
+
+@media screen and (max-width:766px) {
+    .footer-heading{
+        width: 100%;
+    }
+}
