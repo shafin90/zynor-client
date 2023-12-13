@@ -1,10 +1,13 @@
 import { Container } from "react-bootstrap";
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Blog1 = ({ img, heading, firstArticle, secondArticle, listFirstHeading, listFirstArticle, list1, list2, list3, list4, list5, listSecondHeading, listSecondArticle, list6, list7, list8, list9, list10, thirdArticle, thirdHeading }) => {
     return (
         <Container className="mt-5 pb-5">
-            <img src={img} className="img-fluid rounded-4" alt="" />
+            <LazyLoadImage
+                src={img}
+                className="img-fluid rounded-4"
+            />
             <h1 style={{ fontFamily: "battambang" }} className="fw-bold text-white my-5">{heading}</h1>
             <article className="my-5 text-white" >
                 {firstArticle}
