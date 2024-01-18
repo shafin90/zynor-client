@@ -14,6 +14,7 @@ import OurBlog from './pages/OurBlog/OurBlog';
 import ContactUs from './pages/ContactUs/ContactUs';
 import Blog1 from './pages/Blog1/Blog1';
 import ViewProject from './pages/ViewProject/ViewProject';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 
 const router = createBrowserRouter([
@@ -323,7 +324,11 @@ const router = createBrowserRouter([
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+  <ParallaxProvider>
+    <React.StrictMode>
+
+      <RouterProvider router={router} />
+
+    </React.StrictMode>
+  </ParallaxProvider>
 );
