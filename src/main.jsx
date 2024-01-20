@@ -45,7 +45,7 @@ const router = createBrowserRouter([
       {
         path: "/blog1",
         element: <Blog1
-          img="/public/assets/Rectangle 13.jpg"
+          img="/assets/Rectangle 13.jpg"
           heading="Set Free the Power of Digital Marketing: Your Gateway to Online Success"
           firstArticle="In the dynamic landscape of today's business world, establishing a robust online presence is not just an option—it's a necessity. As the digital realm continues to evolve, businesses must leverage innovative strategies to stay ahead of the competition. That's where we, at [ZYNORE], step in to guide you on an exciting journey toward digital excellence."
           secondArticle={false}
@@ -69,7 +69,7 @@ const router = createBrowserRouter([
       {
         path: "/blog2",
         element: <Blog1
-          img="/public/assets/Rectangle 12.jpg"
+          img="/assets/Rectangle 12.jpg"
           heading="Social Media Marketing : Building Your Brand Online"
           firstArticle="Building your brand online through social media is a journey of strategic choices, compelling content, and data-driven refinement. As you navigate this landscape, remember that social media is more than a promotional tool – it's a dynamic space for building relationships and fostering genuine connections. Embrace the uniqueness of each platform, stay authentic in your messaging, and watch as your brand becomes a beacon in the digital realm. Social media marketing isn't just about visibility; it's about creating a lasting impression that resonates with your audience. #BrandSuccess #SocialMediaJourneyComplete"
           secondArticle="Content is the heart of social media, and creating posts that captivate your audience is the secret sauce. Infuse your content with personality, share behind-the-scenes moments, highlight your team, and showcase the values that make your brand unique. Visuals matter, so invest time in creating eye-catching graphics, videos, and images that stop the scroll. Remember, consistency is key; maintain a regular posting schedule to keep your audience engaged."
@@ -93,7 +93,7 @@ const router = createBrowserRouter([
       {
         path: "/blog3",
         element: <Blog1
-          img="/public/assets/Rectangle 14.jpg"
+          img="/assets/Rectangle 14.jpg"
           heading="Email Marketing: Building and Nurturing Your Online Community"
           firstArticle="Your email list is the foundation of your online community. Encourage website visitors, social media followers, and customers to join your mailing list. Offer incentives like exclusive content, discounts, or early access to products. Make it easy for them to subscribe, ensuring a seamless experience."
           secondArticle="As we wrap up this exploration of email marketing, remember that your emails are more than just messages—they are invitations to connect, engage, and build a community around your brand. By cultivating your email list, personalising your messages, and measuring campaign success, you're not just sending emails; you're fostering relationships that last. Cheers to building and nurturing your online community through the power of email marketing!  #EmailMagic #CommunityBuildingSuccess"
@@ -118,7 +118,7 @@ const router = createBrowserRouter([
       {
         path: "/blog4",
         element: <Blog1
-          img="/public/assets/Rectangle 16.jpg"
+          img="/assets/Rectangle 16.jpg"
           heading="Content Marketing Mastery: Creating Value that Drives Results"
           firstArticle="Content marketing is the art of creating and sharing valuable, relevant, and consistent content to attract and retain a clearly defined audience – and, ultimately, to drive profitable customer action. This blog post will guide you through the process of crafting content that resonates with your target audience, establishing your brand as a thought leader in your industry."
           secondArticle="As we conclude this exploration of Content Marketing Mastery, remember that every piece of content you create is an opportunity to add value, connect with your audience, and drive tangible results. By understanding your audience, creating evergreen content, and expolit the power of visuals, you're not just producing content; you're crafting an experience that leaves a lasting impression. Here's to mastering the art of content creation and driving results that elevate your brand in the digital sphere!  #ContentMastery #ResultsDrivenContent"
@@ -142,7 +142,7 @@ const router = createBrowserRouter([
       {
         path: "/blog5",
         element: <Blog1
-          img="/public/assets/Rectangle 15.jpg"
+          img="/assets/Rectangle 15.jpg"
           heading="Evolving Customer Experience: Personalization and Engagement in the Digital Age"
           firstArticle="In today's digitally driven world, customer expectations have reached an all-time high. Customers demand more than just products or services; they seek personalised experiences that serve their unique needs and preferences. This shift in customer etiquette  has forced businesses to rethink their approach to customer experience  and adopt strategies that foster deeper engagement and loyalty."
           thirdArticle={false}
@@ -165,7 +165,7 @@ const router = createBrowserRouter([
       {
         path: "/blog6",
         element: <Blog1
-          img="/public/assets/Rectangle 17.jpg"
+          img="/assets/Rectangle 17.jpg"
           heading="How to Create a Killer SEO Strategy"
           firstArticle="Search engine optimization (SEO) is one of the most important digital marketing strategies for small businesses. This blog post will teach you how to create a killer SEO strategy that will help your website rank higher in search engine results pages (SERPs). It will cover topics such as keyword research, on-page optimization, and link building."
           thirdArticle={false}
@@ -188,7 +188,7 @@ const router = createBrowserRouter([
       {
         path: "/blog7",
         element: <Blog1
-          img="/public/assets/Rectangle 13 (1).jpg"
+          img="/assets/Rectangle 13 (1).jpg"
           heading="Navigating the Social Media Landscape: A Digital Marketing Guide"
           firstArticle={false}
           thirdArticle={false}
@@ -211,7 +211,7 @@ const router = createBrowserRouter([
       {
         path: "/blog8",
         element: <Blog1
-          img="/public/assets/Rectangle 12 (1).jpg"
+          img="/assets/Rectangle 12 (1).jpg"
           heading="Embracing Micro-Influencers: Leveraging Authenticity and Niche Communities for Targeted Marketing"
           firstArticle="Micro-influencers, with their smaller but highly engaged follower bases, are gaining traction in the influencer marketing space. This blog post will discuss the benefits of collaborating with micro-influencers, highlighting their potential for targeted marketing campaigns that reach niche communities and drive authentic engagement."
           secondArticle="Unlike traditional influencers with millions of followers, micro-influencers cultivate a loyal following within specific communities, fostering genuine connections and establishing themselves as trusted voices. This authenticity and expertise resonate deeply with their followers, making micro-influencers effective advocates for brands seeking to reach a specific audience."
@@ -236,7 +236,7 @@ const router = createBrowserRouter([
       {
         path: "/blog9",
         element: <Blog1
-          img="/public/assets/Rectangle 14 (1).jpg"
+          img="/assets/Rectangle 14 (1).jpg"
           heading="The Future is Exciting: Embracing the Evolution of Digital Marketing"
           firstArticle={false}
           secondArticle={false}
@@ -261,7 +261,7 @@ const router = createBrowserRouter([
       {
         path: "/project1",
         element: <ViewProject
-          img="/public/assets/Image.jpg"
+          img="/assets/Image.jpg"
           firstHeading="The Challenge"
           firstArticle="Rajesh Hospital, a multi-specialty hospital in Mumbai, struggled with an outdated website and minimal online engagement."
 
@@ -275,7 +275,7 @@ const router = createBrowserRouter([
       {
         path: "/project2",
         element: <ViewProject
-          img="/public/assets/Image (2).jpg"
+          img="/assets/Image (2).jpg"
           firstHeading="The Challenge"
           firstArticle="Rajesh Hospital, a multi-specialty hospital in Mumbai, struggled with an outdated website and minimal online engagement."
 
@@ -291,7 +291,7 @@ const router = createBrowserRouter([
       {
         path: "/project3",
         element: <ViewProject
-          img="/public/assets/Image (1).jpg"
+          img="/assets/Image (1).jpg"
           firstHeading="The Challenge"
           firstArticle="Rajesh Hospital, a multi-specialty hospital in Mumbai, struggled with an outdated website and minimal online engagement."
 
@@ -306,7 +306,7 @@ const router = createBrowserRouter([
       {
         path: "/project4",
         element: <ViewProject
-          img="/public/assets/Rectangle 2.jpg"
+          img="/assets/Rectangle 2.jpg"
           firstHeading="The Challenge"
           firstArticle="Rajesh Hospital, a multi-specialty hospital in Mumbai, struggled with an outdated website and minimal online engagement."
 
